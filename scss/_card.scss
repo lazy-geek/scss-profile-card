@@ -26,6 +26,9 @@
     &__age {
         font-size: $font-med;
     }
+    &__city{
+        font-size: 14px;
+    }
     &__divider {
         width: 100%;
         border-top: 2px solid #ececec;
@@ -39,6 +42,7 @@
             }
 
             &__title {
+                font-size: $font-sm;
                 letter-spacing: 2px;
             }
         }
