@@ -8,7 +8,15 @@
         align-items: center;
         position: relative;
         bottom: 48px;
-}
+    }
+
+    &__name {
+        font-size: $font-med;
+        font-weight: $font-bold;
+    }
+    &__age {
+        font-size: $font-med;
+    }
     &__pic {
         border: 5px solid white;
         border-radius: 50%;
@@ -16,5 +24,18 @@
     &__divider {
         width: 100%;
         border-bottom: 1px solid $darkGrayishBlue;
+    }
+
+    &__footer {
+        .stats {
+            &__count{
+                font-weight: $font-bold;
+                font-size: $font-med;
+            }
+
+            &__title {
+                letter-spacing: 2px;
+            }
+        }
     }
 }
