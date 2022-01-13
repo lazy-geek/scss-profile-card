@@ -1,5 +1,5 @@
 .card {
-    background-color: white;
+    background-color: $card-bg-color;
     border-radius: 10px;
     overflow: hidden;
     &__body {
@@ -11,7 +11,7 @@
     }
 
     &__pic {
-        outline: white solid $profile-outline-size;
+        outline: $card-bg-color solid $profile-outline-size;
         border-radius: 50%;
         margin-bottom: 20px;
     }
