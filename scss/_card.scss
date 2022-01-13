@@ -22,6 +22,7 @@
     &__name {
         font-size: $font-med;
         font-weight: $font-bold;
+        margin-right: 5px;
     }
     &__age {
         font-size: $font-med;
@@ -35,10 +36,17 @@
     }
 
     &__footer {
+        display: flex;
+        justify-content: space-evenly;
         .stats {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
             &__count{
                 font-weight: $font-bold;
                 font-size: $font-med;
+                margin-bottom: 5px;
             }
 
             &__title {
