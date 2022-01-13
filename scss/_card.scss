@@ -7,7 +7,7 @@
         flex-direction: column;
         align-items: center;
         position: relative;
-        bottom: 48px;
+        bottom: ($profile-pic-size + $profile-border-size ) / 2;
     }
 
     &__name {
@@ -18,7 +18,7 @@
         font-size: $font-med;
     }
     &__pic {
-        border: 5px solid white;
+        border: $profile-border-size solid white;
         border-radius: 50%;
     }
     &__divider {
