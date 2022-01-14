@@ -11,6 +11,9 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-image: url('../assets/images/bg-pattern-top.svg') , url('../assets/images/bg-pattern-bottom.svg');
+    background-position: right 52vw bottom 35vh , left 50vw top 50vh;
+    background-repeat: no-repeat , no-repeat;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: $font-normal;
     font-size: $font-sm;
@@ -21,3 +24,4 @@ body {
     justify-content: center;
     background-color: $darkCyan;
 }
+
