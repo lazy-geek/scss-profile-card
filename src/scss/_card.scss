@@ -26,9 +26,11 @@
     }
     &__age {
         font-size: $font-med;
+        color: $darkGrayishBlue;
     }
     &__city{
         font-size: 14px;
+        color: $darkGrayishBlue;
     }
     &__divider {
         width: 100%;
@@ -52,6 +54,7 @@
             &__title {
                 font-size: $font-sm;
                 letter-spacing: 2px;
+                color: $darkGrayishBlue;
             }
         }
     }
