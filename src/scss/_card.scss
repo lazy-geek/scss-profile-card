@@ -2,6 +2,7 @@
     background-color: $card-bg-color;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     &__body {
         display: flex;
         flex-direction: column;
