@@ -1,0 +1,25 @@
+{
+  "name": "scss-profile-card",
+  "version": "1.0.0",
+  "description": "Modern Profile Card Built With Html & SCSS",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazy-geek/scss-profile-card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lazy-geek/scss-profile-card/issues"
+  },
+  "homepage": "https://github.com/lazy-geek/scss-profile-card#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.0",
+    "css-loader": "^6.5.1",
+    "mini-css-extract-plugin": "^2.4.7",
+    "sass": "^1.48.0",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
