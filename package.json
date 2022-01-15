@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Modern Profile Card Built With Html & SCSS",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack --watch"
   },
   "repository": {
     "type": "git",
