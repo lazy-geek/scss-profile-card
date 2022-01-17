@@ -1,2 +1,2 @@
-# scss-profile-card
+# SCSS Profile Card
 Modern Profile Card Built With Html & SCSS
